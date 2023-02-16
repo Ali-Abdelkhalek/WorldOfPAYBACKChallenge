@@ -36,8 +36,5 @@ Simply open the project in Xcode to start using it.
 ## Support
 This app was created as part of a coding challenge, and as such, support is limited. However, if you have any questions or feedback about WorldOfPAYBACK, please feel free to reach out to the developer at aliabdelkhalek96@gmail.com.
 
-## Privacy Policy
-"WorldOfPAYBACK" takes privacy seriously. For more information about our privacy policy, please see the privacy policy included in the repository.
-
 ## License
-"WorldOfPAYBACK" is open source and licensed under the MIT license. For more information about the license, please see the license file included in the repository.
+"WorldOfPAYBACK" is open source and licensed under the MIT license.
