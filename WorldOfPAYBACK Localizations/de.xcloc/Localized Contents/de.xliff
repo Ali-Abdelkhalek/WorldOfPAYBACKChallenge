@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="WorldOfPAYBACK/en.lproj/WorldOfPAYBACK-InfoPlist.strings" datatype="plaintext" source-language="en" target-language="de">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.1" build-num="14B47b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>WorldOfPAYBACK</source>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="WorldOfPAYBACK/Localization/en.lproj/Localizable.strings" source-language="en" target-language="de" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.1" build-num="14B47b"/>
+    </header>
+    <body>
+      <trans-unit id="%lld" xml:space="preserve">
+        <source>%lld</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Apply filter" xml:space="preserve">
+        <source>Apply filter</source>
+        <target>Filter anwenden</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Category:" xml:space="preserve">
+        <source>Category:</source>
+        <target>Kategorie:</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Check your connection and try again." xml:space="preserve">
+        <source>Check your connection and try again.</source>
+        <target>Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Clear filters" xml:space="preserve">
+        <source>Clear filters</source>
+        <target>Filter löschen</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Current transactions sum = %lld" xml:space="preserve">
+        <source>Current transactions sum = %lld</source>
+        <target>Aktuelle Transaktionssumme = %lld</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Date:" xml:space="preserve">
+        <source>Date:</source>
+        <target>Datum:</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Description:" xml:space="preserve">
+        <source>Description:</source>
+        <target>Beschreibung:</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Dismiss" xml:space="preserve">
+        <source>Dismiss</source>
+        <target>Zurückweisen</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Failed to load the transaction from the mock data, please check your mock data and try again." xml:space="preserve">
+        <source>Failed to load the transaction from the mock data, please check your mock data and try again.</source>
+        <target>Fehler beim Laden der Transaktion aus den Scheindaten, bitte überprüfen Sie Ihre Scheindaten und versuchen Sie es erneut.</target>
+        <note>Time Out</note>
+      </trans-unit>
+      <trans-unit id="Filter by Category" xml:space="preserve">
+        <source>Filter by Category</source>
+        <target>Filtern Sie nach Kategorie</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Partner:" xml:space="preserve">
+        <source>Partner:</source>
+        <target>Partner:</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Request timed out, please check your network and try again." xml:space="preserve">
+        <source>Request timed out, please check your network and try again.</source>
+        <target>Zeitüberschreitung bei Anforderung, bitte überprüfen Sie Ihr Netzwerk und versuchen Sie es erneut.</target>
+        <note>Time Out</note>
+      </trans-unit>
+      <trans-unit id="The response contains partially corrupt data, please get in touch with support." xml:space="preserve">
+        <source>The response contains partially corrupt data, please get in touch with support.</source>
+        <target>Die Antwort enthält teilweise beschädigte Daten, bitte wenden Sie sich an den Support.</target>
+        <note>Time Out</note>
+      </trans-unit>
+      <trans-unit id="Transactions" xml:space="preserve">
+        <source>Transactions</source>
+        <target>Transaktionen</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="You're offline" xml:space="preserve">
+        <source>You're offline</source>
+        <target>Du bist offline</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

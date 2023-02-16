@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66133B7F299281A5009E734D /* WorldOfPAYBACKApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66133B7E299281A5009E734D /* WorldOfPAYBACKApp.swift */; };
+		66133B81299281A5009E734D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66133B80299281A5009E734D /* HomeView.swift */; };
+		66133B83299281A6009E734D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66133B82299281A6009E734D /* Assets.xcassets */; };
+		66133B86299281A6009E734D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66133B85299281A6009E734D /* Preview Assets.xcassets */; };
+		66133B8D29928250009E734D /* PAYBACKClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66133B8C29928250009E734D /* PAYBACKClient.swift */; };
+		66133B8F299282E0009E734D /* PBTransactions.json in Resources */ = {isa = PBXBuildFile; fileRef = 66133B8E299282E0009E734D /* PBTransactions.json */; };
+		66133B9129928368009E734D /* PBTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66133B9029928368009E734D /* PBTransaction.swift */; };
+		66133B932992A12C009E734D /* DateExtentsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66133B922992A12C009E734D /* DateExtentsion.swift */; };
+		66133B952992B5A9009E734D /* PBTransactionDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66133B942992B5A9009E734D /* PBTransactionDetailsView.swift */; };
+		66133B992992CD93009E734D /* LabelWithDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66133B982992CD93009E734D /* LabelWithDescriptionView.swift */; };
+		66133B9B2992D29C009E734D /* PBTransactionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66133B9A2992D29C009E734D /* PBTransactionsListView.swift */; };
+		66133B9D2992D31F009E734D /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66133B9C2992D31F009E734D /* NetworkMonitor.swift */; };
+		66133B9F2992DEDB009E734D /* OfflineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66133B9E2992DEDB009E734D /* OfflineView.swift */; };
+		66133BA329966AD5009E734D /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66133BA229966AD5009E734D /* ErrorView.swift */; };
+		66133BA529966B27009E734D /* PBTransactionsLoadingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66133BA429966B27009E734D /* PBTransactionsLoadingError.swift */; };
+		66133BAA29966E1E009E734D /* PBTransactionsSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66133BA929966E1E009E734D /* PBTransactionsSource.swift */; };
+		668CEB2829968FB200F3D295 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668CEB2729968FB200F3D295 /* CheckBoxView.swift */; };
+		668CEB2A2996907600F3D295 /* CheckBoxMenuCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668CEB292996907600F3D295 /* CheckBoxMenuCellView.swift */; };
+		668CEB2C2997C78300F3D295 /* CategoryFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668CEB2B2997C78300F3D295 /* CategoryFilterView.swift */; };
+		668CEB302997E37C00F3D295 /* PBTransactionCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668CEB2F2997E37C00F3D295 /* PBTransactionCellView.swift */; };
+		668CEB322997E54C00F3D295 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668CEB312997E54C00F3D295 /* HomeViewModel.swift */; };
+		668CEB342997EBC600F3D295 /* TransactionsLoadingResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668CEB332997EBC600F3D295 /* TransactionsLoadingResults.swift */; };
+		668CEB3A299925F100F3D295 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 668CEB3C299925F100F3D295 /* Localizable.strings */; };
+		668CEB402999336C00F3D295 /* AppStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668CEB3F2999336C00F3D295 /* AppStrings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66133B7B299281A5009E734D /* WorldOfPAYBACK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldOfPAYBACK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66133B7E299281A5009E734D /* WorldOfPAYBACKApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldOfPAYBACKApp.swift; sourceTree = "<group>"; };
+		66133B80299281A5009E734D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		66133B82299281A6009E734D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66133B85299281A6009E734D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66133B8C29928250009E734D /* PAYBACKClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAYBACKClient.swift; sourceTree = "<group>"; };
+		66133B8E299282E0009E734D /* PBTransactions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PBTransactions.json; sourceTree = "<group>"; };
+		66133B9029928368009E734D /* PBTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBTransaction.swift; sourceTree = "<group>"; };
+		66133B922992A12C009E734D /* DateExtentsion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtentsion.swift; sourceTree = "<group>"; };
+		66133B942992B5A9009E734D /* PBTransactionDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBTransactionDetailsView.swift; sourceTree = "<group>"; };
+		66133B982992CD93009E734D /* LabelWithDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelWithDescriptionView.swift; sourceTree = "<group>"; };
+		66133B9A2992D29C009E734D /* PBTransactionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBTransactionsListView.swift; sourceTree = "<group>"; };
+		66133B9C2992D31F009E734D /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		66133B9E2992DEDB009E734D /* OfflineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineView.swift; sourceTree = "<group>"; };
+		66133BA229966AD5009E734D /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		66133BA429966B27009E734D /* PBTransactionsLoadingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBTransactionsLoadingError.swift; sourceTree = "<group>"; };
+		66133BA929966E1E009E734D /* PBTransactionsSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBTransactionsSource.swift; sourceTree = "<group>"; };
+		668CEB2729968FB200F3D295 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		668CEB292996907600F3D295 /* CheckBoxMenuCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxMenuCellView.swift; sourceTree = "<group>"; };
+		668CEB2B2997C78300F3D295 /* CategoryFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryFilterView.swift; sourceTree = "<group>"; };
+		668CEB2F2997E37C00F3D295 /* PBTransactionCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBTransactionCellView.swift; sourceTree = "<group>"; };
+		668CEB312997E54C00F3D295 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		668CEB332997EBC600F3D295 /* TransactionsLoadingResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsLoadingResults.swift; sourceTree = "<group>"; };
+		668CEB3D2999260F00F3D295 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		668CEB3E2999262000F3D295 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		668CEB3F2999336C00F3D295 /* AppStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStrings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66133B78299281A5009E734D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66133B72299281A5009E734D = {
+			isa = PBXGroup;
+			children = (
+				66133B7D299281A5009E734D /* WorldOfPAYBACK */,
+				66133B7C299281A5009E734D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66133B7C299281A5009E734D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66133B7B299281A5009E734D /* WorldOfPAYBACK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66133B7D299281A5009E734D /* WorldOfPAYBACK */ = {
+			isa = PBXGroup;
+			children = (
+				668CEB37299925C700F3D295 /* Localization */,
+				66133BA829966D81009E734D /* ViewModel */,
+				66133BA729966D55009E734D /* Model */,
+				66133BA629966D0E009E734D /* View */,
+				66133B7E299281A5009E734D /* WorldOfPAYBACKApp.swift */,
+				66133B82299281A6009E734D /* Assets.xcassets */,
+				66133B84299281A6009E734D /* Preview Content */,
+			);
+			path = WorldOfPAYBACK;
+			sourceTree = "<group>";
+		};
+		66133B84299281A6009E734D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				66133B85299281A6009E734D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66133BA629966D0E009E734D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				668CEB42299935B200F3D295 /* TransactionListView */,
+				668CEB412999359E00F3D295 /* CategpryFilterView */,
+				66133B80299281A5009E734D /* HomeView.swift */,
+				66133B9E2992DEDB009E734D /* OfflineView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		66133BA729966D55009E734D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				66133B8C29928250009E734D /* PAYBACKClient.swift */,
+				66133B922992A12C009E734D /* DateExtentsion.swift */,
+				66133B9C2992D31F009E734D /* NetworkMonitor.swift */,
+				66133BA429966B27009E734D /* PBTransactionsLoadingError.swift */,
+				66133B9029928368009E734D /* PBTransaction.swift */,
+				66133BA929966E1E009E734D /* PBTransactionsSource.swift */,
+				668CEB332997EBC600F3D295 /* TransactionsLoadingResults.swift */,
+				66133B8E299282E0009E734D /* PBTransactions.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66133BA829966D81009E734D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				668CEB312997E54C00F3D295 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		668CEB37299925C700F3D295 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				668CEB3C299925F100F3D295 /* Localizable.strings */,
+				668CEB3F2999336C00F3D295 /* AppStrings.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		668CEB412999359E00F3D295 /* CategpryFilterView */ = {
+			isa = PBXGroup;
+			children = (
+				668CEB2729968FB200F3D295 /* CheckBoxView.swift */,
+				668CEB292996907600F3D295 /* CheckBoxMenuCellView.swift */,
+				668CEB2B2997C78300F3D295 /* CategoryFilterView.swift */,
+			);
+			path = CategpryFilterView;
+			sourceTree = "<group>";
+		};
+		668CEB42299935B200F3D295 /* TransactionListView */ = {
+			isa = PBXGroup;
+			children = (
+				66133B9A2992D29C009E734D /* PBTransactionsListView.swift */,
+				668CEB2F2997E37C00F3D295 /* PBTransactionCellView.swift */,
+				66133B942992B5A9009E734D /* PBTransactionDetailsView.swift */,
+				66133B982992CD93009E734D /* LabelWithDescriptionView.swift */,
+				66133BA229966AD5009E734D /* ErrorView.swift */,
+			);
+			path = TransactionListView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66133B7A299281A5009E734D /* WorldOfPAYBACK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66133B89299281A6009E734D /* Build configuration list for PBXNativeTarget "WorldOfPAYBACK" */;
+			buildPhases = (
+				66133B77299281A5009E734D /* Sources */,
+				66133B78299281A5009E734D /* Frameworks */,
+				66133B79299281A5009E734D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldOfPAYBACK;
+			productName = WorldOfPAYBACK;
+			productReference = 66133B7B299281A5009E734D /* WorldOfPAYBACK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66133B73299281A5009E734D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					66133B7A299281A5009E734D = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 66133B76299281A5009E734D /* Build configuration list for PBXProject "WorldOfPAYBACK" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = 66133B72299281A5009E734D;
+			productRefGroup = 66133B7C299281A5009E734D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66133B7A299281A5009E734D /* WorldOfPAYBACK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66133B79299281A5009E734D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66133B86299281A6009E734D /* Preview Assets.xcassets in Resources */,
+				668CEB3A299925F100F3D295 /* Localizable.strings in Resources */,
+				66133B8F299282E0009E734D /* PBTransactions.json in Resources */,
+				66133B83299281A6009E734D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66133B77299281A5009E734D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66133B9F2992DEDB009E734D /* OfflineView.swift in Sources */,
+				668CEB322997E54C00F3D295 /* HomeViewModel.swift in Sources */,
+				668CEB2A2996907600F3D295 /* CheckBoxMenuCellView.swift in Sources */,
+				668CEB2C2997C78300F3D295 /* CategoryFilterView.swift in Sources */,
+				668CEB302997E37C00F3D295 /* PBTransactionCellView.swift in Sources */,
+				66133B81299281A5009E734D /* HomeView.swift in Sources */,
+				66133B8D29928250009E734D /* PAYBACKClient.swift in Sources */,
+				66133B952992B5A9009E734D /* PBTransactionDetailsView.swift in Sources */,
+				668CEB2829968FB200F3D295 /* CheckBoxView.swift in Sources */,
+				66133BAA29966E1E009E734D /* PBTransactionsSource.swift in Sources */,
+				66133BA529966B27009E734D /* PBTransactionsLoadingError.swift in Sources */,
+				66133B9129928368009E734D /* PBTransaction.swift in Sources */,
+				668CEB342997EBC600F3D295 /* TransactionsLoadingResults.swift in Sources */,
+				66133B7F299281A5009E734D /* WorldOfPAYBACKApp.swift in Sources */,
+				66133B9B2992D29C009E734D /* PBTransactionsListView.swift in Sources */,
+				66133B932992A12C009E734D /* DateExtentsion.swift in Sources */,
+				66133B9D2992D31F009E734D /* NetworkMonitor.swift in Sources */,
+				66133B992992CD93009E734D /* LabelWithDescriptionView.swift in Sources */,
+				668CEB402999336C00F3D295 /* AppStrings.swift in Sources */,
+				66133BA329966AD5009E734D /* ErrorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		668CEB3C299925F100F3D295 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				668CEB3D2999260F00F3D295 /* en */,
+				668CEB3E2999262000F3D295 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66133B87299281A6009E734D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66133B88299281A6009E734D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66133B8A299281A6009E734D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WorldOfPAYBACK/Preview Content\"";
+				DEVELOPMENT_TEAM = 9TYA6XV8ZJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ali.WorldOfPAYBACK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66133B8B299281A6009E734D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WorldOfPAYBACK/Preview Content\"";
+				DEVELOPMENT_TEAM = 9TYA6XV8ZJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ali.WorldOfPAYBACK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66133B76299281A5009E734D /* Build configuration list for PBXProject "WorldOfPAYBACK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66133B87299281A6009E734D /* Debug */,
+				66133B88299281A6009E734D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66133B89299281A6009E734D /* Build configuration list for PBXNativeTarget "WorldOfPAYBACK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66133B8A299281A6009E734D /* Debug */,
+				66133B8B299281A6009E734D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66133B73299281A5009E734D /* Project object */;
+}

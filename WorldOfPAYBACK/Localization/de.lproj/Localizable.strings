@@ -1,0 +1,45 @@
+/* No comment provided by engineer. */
+"Apply filter" = "Filter anwenden";
+
+/* No comment provided by engineer. */
+"Category:" = "Kategorie:";
+
+/* No comment provided by engineer. */
+"Check your connection and try again." = "Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.";
+
+/* No comment provided by engineer. */
+"Clear filters" = "Filter löschen";
+
+/* No comment provided by engineer. */
+"Current transactions sum = %lld" = "Aktuelle Transaktionssumme = %lld";
+
+/* No comment provided by engineer. */
+"Date:" = "Datum:";
+
+/* No comment provided by engineer. */
+"Description:" = "Beschreibung:";
+
+/* No comment provided by engineer. */
+"Dismiss" = "Zurückweisen";
+
+/* Time Out */
+"Failed to load the transaction from the mock data, please check your mock data and try again." = "Fehler beim Laden der Transaktion aus den Scheindaten, bitte überprüfen Sie Ihre Scheindaten und versuchen Sie es erneut.";
+
+/* No comment provided by engineer. */
+"Filter by Category" = "Filtern Sie nach Kategorie";
+
+/* No comment provided by engineer. */
+"Partner:" = "Partner:";
+
+/* Time Out */
+"Request timed out, please check your network and try again." = "Zeitüberschreitung bei Anforderung, bitte überprüfen Sie Ihr Netzwerk und versuchen Sie es erneut.";
+
+/* Time Out */
+"The response contains partially corrupt data, please get in touch with support." = "Die Antwort enthält teilweise beschädigte Daten, bitte wenden Sie sich an den Support.";
+
+/* No comment provided by engineer. */
+"Transactions" = "Transaktionen";
+
+/* No comment provided by engineer. */
+"You're offline" = "Du bist offline";
+
